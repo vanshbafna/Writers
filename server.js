@@ -26,8 +26,8 @@ const transporter = nodemailer.createTransport({
     port: 587,
     host: "smtp.gmail.com",
     auth: {
-        user: 'tamannatadwal90@gmail.com',
-        pass: 'uxljncibzxuftqqu',
+        user: '',
+        pass: '',
     },
     secure: true,
 });
