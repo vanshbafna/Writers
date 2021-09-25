@@ -23,11 +23,11 @@ app.use("/peerjs", peerServer);
 var nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-    port: 587,
+    port: 465,
     host: "smtp.gmail.com",
     auth: {
         user: 'tamannatadwal2017@gmail.com',
-        pass: 'cnrsughblnkpnvpl',
+        pass: 'ujzrtfolursfgshp',
     },
     secure: true,
 });
